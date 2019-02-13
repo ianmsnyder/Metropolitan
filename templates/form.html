@@ -1,0 +1,111 @@
+<!doctype html>
+<html>
+<head>
+<link rel="stylesheet" href="../static/style.css" type="text/css" />
+<title>Data Selection</title>
+</head>
+<body>
+  <div class=page>
+  <h1>Exploring the Metropolitan Museum of Art Open Access Dataset</h1>
+  <div class=metanav>
+
+    <h4>
+      <font color="red">{{message}}</font>
+      <br><br>
+      Select the Department (optional), the date range, and the number of entries to view, then press Submit to show the results.
+      <br><br> 
+      The dataset is provided by the Metropolitan Museum of Art Open Access.  
+      <a href= https://github.com/metmuseum/openaccess/>Visit the Metropolitan Museum of Art Open Access page</a>
+    </h4>
+
+<form id='user_input' method='post' action='getting_form' >
+    <p>Department</p>
+    <select name="Department">
+      <option value="All">All</option>
+      <option value="American Decorative Arts">American Decorative Arts</option>
+      <option value="Ancient Near Eastern Art">Ancient Near Eastern Art</option>
+      <option value="Arms and Armor">Arms and Armor</option>
+      <option value="Arts of Africa, Oceania, and the Americas">Arts of Africa, Oceania, and the Americas</option>
+      <option value="Asian Art">Asian Art</option>
+      <option value="Costume Institute">Costume Institute</option>
+      <option value="Drawings and Prints">Drawings and Prints</option>
+      <option value="Egyptian Art">Egyptian Art</option>
+      <option value="European Paintings">European Paintings</option>
+      <option value="European Sculpture and Decorative Arts">European Sculpture and Decorative Arts</option>
+      <option value="Greek and Roman Art">Greek and Roman Art</option>
+      <option value="Islamic Art">Islamic Art</option>
+      <option value="Medieval Art">Medieval Art</option>
+      <option value="Modern and Contemporary Art">Modern and Contemporary Art</option>
+      <option value="Musical Instruments">Musical Instruments</option>
+      <option value="Photographs">Photographs</option>
+      <option value="Robert Lehman Collection">Robert Lehman Collection</option>
+      <option value="The Cloisters">The Cloisters</option>
+      <option value="The Libraries">The Libraries</option>
+
+
+    </select> 
+    <br><br>
+    <p>Start Year</p>
+    <select name="Start_Year">
+    <option value="-500000">-500000</option>
+    <option value="-20000">-20000</option>
+    <option value="-10000">-10000</option>
+    <option value="-5000">-5000</option>
+    <option value="-500">-500</option>
+    <option value="0">0</option>
+    <option value="500">500</option>
+    <option value="1000">1000</option>
+    <option value="1200">1200</option>
+    <option value="1400">1400</option>
+    <option value="1500">1500</option>
+    <option value="1600">1600</option>
+    <option value="1700">1700</option>
+    <option value="1800">1800</option>
+    <option value="1900">1900</option>
+    <option value="1950">1950</option>
+    <option value="2000">2000</option>
+
+
+    </select>
+    <br><br>
+    <p>End Year</p>
+    <select name="End_Year">
+    <option value="-20000">-20000</option>
+    <option value="-10000">-10000</option>
+    <option value="-5000">-5000</option>
+    <option value="-500">-500</option>
+    <option value="0">0</option>
+    <option value="500">500</option>
+    <option value="1000">1000</option>
+    <option value="1200">1200</option>
+    <option value="1400">1400</option>
+    <option value="1500">1500</option>
+    <option value="1600">1600</option>
+    <option value="1700">1700</option>
+    <option value="1800">1800</option>
+    <option value="1900">1900</option>
+    <option value="1950">1950</option>
+    <option value="2000">2000</option>
+    <option value="5000">5000</option>
+    </select> -->
+    <br><br>
+
+    </select> 
+    <br><br>
+    <p>Number of Entries</p>
+    <select name="Number_Entries">
+    <option value="5">5</option>
+    <option value="10">10</option>
+    <option value="20">20</option>
+    <option value="50">50</option>
+    <option value="All">All</option>
+    </select> -->
+    <br><br>
+      
+    <input type='submit' value='Submit' />
+</form>
+
+  </div>
+</div>
+</body>
+</html>
